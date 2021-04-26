@@ -1,0 +1,51 @@
+.App {
+  padding: 10px;
+  border: 2px solid gray;
+  align-items: center;
+
+}
+
+.MapBox {
+  padding: 10px;
+  border: 5px solid gray;
+}
+
+.Dashboard {
+  padding: 20px;
+  border: 3px solid gray;
+  margin: 30px;
+}
+
+.device:link, .device:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #D4A946;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.device:hover, .device:active {
+  background-color: #D4A946;
+  color: white;
+}
+.links:link, .links:visited {
+  background-color: #D4A946;
+  color: white;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 10px;
+  align-items: center;
+  margin: 20px;
+}
+
+.links:hover, .links:active {
+  background-color: #8b7235;
+}
